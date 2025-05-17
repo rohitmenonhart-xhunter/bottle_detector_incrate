@@ -146,6 +146,18 @@ Example:
 python analyze_frame.py -i bottle_frame.jpg -p bottle_counter_params.txt -o bottle_analysis.jpg
 ```
 
+## Sample Results
+
+### Before Processing (Original Video)
+The input video (`download.mp4`) contains a crate of bottles viewed from above:
+![Original Video](https://github.com/rohitmenonhart-xhunter/bottle_detector_incrate/raw/main/download.mp4)
+
+### After Processing (Detection Results)
+The output video (`bottle_detection_result.mp4`) shows the bottles detected and counted in real-time:
+![Processed Video with Detection](https://github.com/rohitmenonhart-xhunter/bottle_detector_incrate/raw/main/bottle_detection_result.mp4)
+
+Our application detected a maximum of 28 bottles in the crate.
+
 ## Detection Methods
 
 The application uses two detection methods:
