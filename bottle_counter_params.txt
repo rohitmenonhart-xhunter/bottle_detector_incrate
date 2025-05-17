@@ -1,0 +1,5 @@
+min_radius = 26
+max_radius = 56
+min_distance = 10
+param1 = 87
+param2 = 39
