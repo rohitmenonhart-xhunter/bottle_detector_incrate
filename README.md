@@ -150,13 +150,19 @@ python analyze_frame.py -i bottle_frame.jpg -p bottle_counter_params.txt -o bott
 
 ### Before Processing (Original Video)
 The input video (`download.mp4`) contains a crate of bottles viewed from above:
-![Original Video](https://github.com/rohitmenonhart-xhunter/bottle_detector_incrate/raw/main/download.mp4)
+
+<img src="sample_frame.jpg" alt="Original Video Frame" width="640"/>
+
+[Click to download original video (download.mp4)](https://github.com/rohitmenonhart-xhunter/bottle_detector_incrate/raw/main/download.mp4)
 
 ### After Processing (Detection Results)
 The output video (`bottle_detection_result.mp4`) shows the bottles detected and counted in real-time:
-![Processed Video with Detection](https://github.com/rohitmenonhart-xhunter/bottle_detector_incrate/raw/main/bottle_detection_result.mp4)
 
-Our application detected a maximum of 28 bottles in the crate.
+<img src="result_frame.jpg" alt="Processed Video Frame with Detection" width="640"/>
+
+[Click to download result video with detection (bottle_detection_result.mp4)](https://github.com/rohitmenonhart-xhunter/bottle_detector_incrate/raw/main/bottle_detection_result.mp4)
+
+Our application successfully detected a maximum of 28 bottles in the crate using computer vision techniques.
 
 ## Detection Methods
 
